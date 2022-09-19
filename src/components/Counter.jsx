@@ -34,6 +34,7 @@ const Counter = (props) => {
 
   return (
     <div>
+      <div className="content-header">Content:</div>
       <h2 className="content">
         {count.value} * 2 = {doubled.value}
       </h2>
