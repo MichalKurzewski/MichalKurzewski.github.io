@@ -1,7 +1,7 @@
 {
   "name": "react-signals",
   "version": "0.1.0",
-  "homepage": "https://MichalKurzewski.github.io/react-gh-pages",
+  "homepage": "https://michalkurzewski.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@preact/signals-react": "^1.0.2",
