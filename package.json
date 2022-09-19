@@ -1,6 +1,7 @@
 {
   "name": "react-signals",
   "version": "0.1.0",
+  "homepage": "https://MichalKurzewski.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@preact/signals-react": "^1.0.2",
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.31.8"
+    "eslint-plugin-react": "^7.31.8",
+    "gh-pages": "^4.0.0"
   }
 }
